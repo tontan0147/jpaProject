@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class staticset : MonoBehaviour
+{
+    private static staticset _instance;
+    public static staticset Instance => _instance;
+
+    public int sky = 0;
+    public int model = 0;
+    public int information = 0;
+
+    private void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+}

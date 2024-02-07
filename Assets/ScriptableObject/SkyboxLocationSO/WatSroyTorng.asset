@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15df75cb2f2d3a4f9608799d11063ca, type: 3}
+  m_Name: WatSroyTorng
+  m_EditorClassIdentifier: 
+  skyBoxMaterial:
+  - {fileID: 2100000, guid: 5fab7e6f31fc15a428c4587540868235, type: 2}
+  - {fileID: 2100000, guid: 8beb132b48b0dba4583dd68d22c098b8, type: 2}
+  infoText: "<b>\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E27\u0E31\u0E14\u0E2A\u0E23\u0E49\u0E2D\u0E22\u0E17\u0E2D\u0E07</b>\r\n\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E04\u0E31\u0E0D\r\n-\u0E15\u0E25\u0E32\u0E14\u0E2A\u0E14\u0E28\u0E23\u0E35\u0E40\u0E02\u0E21\u0E32\r\n-\u0E2A\u0E27\u0E19\u0E2A\u0E32\u0E18\u0E32\u0E23\u0E13\u0E30\u0E43\u0E15\u0E49\u0E2A\u0E30\u0E1E\u0E32\u0E19\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E217\r\n\u0E23\u0E16\u0E42\u0E14\u0E22\u0E2A\u0E32\u0E23\u0E1A\u0E23\u0E34\u0E40\u0E27\u0E13\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E27\u0E31\u0E14\u0E2A\u0E23\u0E49\u0E2D\u0E22\u0E17\u0E2D\u0E07\r\n-\u0E1B\u0E49\u0E32\u0E22\u0E23\u0E16\u0E1B\u0E23\u0E30\u0E08\u0E33\u0E17\u0E32\u0E07
+    \u0E16\u0E19\u0E19\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E23\u0E32\u0E29\u0E0E\u0E23\u0E4C\u0E2A\u0E32\u0E221
+    \u0E2A\u0E32\u0E22 5 32 33 49 64 90 117 2-17R 3-55\r\n"
