@@ -14,13 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stationName: "\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1E\u0E2B\u0E25\u0E42\u0E22\u0E18\u0E34\u0E19"
   stationKeyword: "\u0E1E\u0E2B\u0E25\u0E42\u0E22\u0E18\u0E34\u0E19\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E42\u0E23\u0E07\u0E41\u0E23\u0E21\u0E23\u0E16\u0E44\u0E1F\u0E1F\u0E49\u0E32\u0E25\u0E32\u0E14\u0E1E\u0E23\u0E49\u0E32\u0E27"
-  overview: 1
+  visual: 2
   schedule: 9:00 - 10:00
   stationMainPicture: {fileID: 0}
+  stationSubPictures:
+  - {fileID: 0}
+  - {fileID: 0}
+  flags: 000000000100000002000000
   landmarks:
   - landmarkName: "\u0E40\u0E0B\u0E19\u0E17\u0E23\u0E31\u0E25\u0E44\u0E23\u0E01\u0E47\u0E44\u0E21\u0E48\u0E23\u0E39\u0E49"
     landmarkPicture:
-    - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
     landmarkDescription: "\u0E23\u0E30\u0E22\u0E30\u0E17\u0E32\u0E07\u0E08\u0E32\u0E01\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13
