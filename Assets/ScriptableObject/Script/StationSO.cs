@@ -13,24 +13,35 @@ public class StationSO : ScriptableObject
         public Sprite[] landmarkPicture;
         [TextArea(3, 5)] public string landmarkDescription;
     }
-    public enum Overview
+    public enum Visual
     {
         _3D,
         _360,
         BOTH
     };
+    public enum Flag
+    {
+        Green,
+        Orange,
+        Yellow,
+        Red
+    };
     [Header("Station Detail")]
     [SerializeField] private string stationName = "Station";
     [SerializeField] private string stationKeyword = "Key";
-    [SerializeField] private Overview overview = Overview.BOTH;
+    [SerializeField] private Visual visual = Visual.BOTH;
     [SerializeField] private string schedule = "9:00 - 10:00";
     [SerializeField] private Sprite stationMainPicture;
+    [SerializeField] private Sprite[] stationSubPictures;
+    [SerializeField] private Flag[] flags;
 
     public string GetStationName => stationName;
     public string GetStationKeyword => stationKeyword;
-    public Overview GetStationOverview => overview;
+    public Visual GetStationOverview => visual;
     public string GetSchedule => schedule;
-    public Sprite GetStatioPicture => stationMainPicture;
+    public Sprite GetStationMainPicture => stationMainPicture;
+    public Sprite[] GetStationSubPictures => stationSubPictures;
+    public Flag[] GetAllFlags => flags;
 
     [Header("Landmark")]
     [SerializeField] private Landmark[] landmarks;

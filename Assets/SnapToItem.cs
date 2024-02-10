@@ -49,7 +49,7 @@ public class SnapToItem : MonoBehaviour
         if (scrollRect.velocity.magnitude > 200)
         {
             //SetButtonSize(currentItem);
-            nameLabel.text = currentItem.ToString();
+            //nameLabel.text = currentItem.ToString();
             isSnapped = false;
             snapSpeed = 0;
         }
