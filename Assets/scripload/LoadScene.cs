@@ -22,7 +22,11 @@ public class LoadSceneder : MonoBehaviour
         staticset.Instance.currentStation = station;
         SceneManager.LoadScene("StationInfo");
     }
-
+    public void LoadSceneLandmark(StationSO station)
+    {
+        staticset.Instance.currentStation = station;
+        SceneManager.LoadScene("Attraction");
+    }
     public void LoadFirstScene()
     {
         SceneManager.LoadScene("First");

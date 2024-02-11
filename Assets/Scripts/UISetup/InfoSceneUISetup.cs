@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 public class InfoSceneUISetup : MonoBehaviour
 {
     [SerializeField] private Image mainPicture;
@@ -31,13 +33,21 @@ public class InfoSceneUISetup : MonoBehaviour
         int i = 0;
         foreach (StationSO.Landmark item in stationSO.GetLandmarks)
         {
+            int cur = i;
             ShortcutButton newButton = Instantiate(landmarkButtonTemplate, verticalLayout.transform);
             newButton.Init(item.landmarkName, item.landmarkPicture[i]);
             newButton.gameObject.SetActive(true);
-            newButton.GetComponent<Button>().onClick.AddListener(() => newButton.gameObject.SetActive(false));
+            newButton.GetComponent<Button>().onClick.AddListener(() => LoadSceneLandmark(item));
             i++;
         }
         landmarkButtonTemplate.gameObject.SetActive(false);
+    }
+
+    private void LoadSceneLandmark(StationSO.Landmark landMarkIndex)
+    {
+        staticset.Instance.currentStation = stationSO;
+        staticset.Instance.currentLandmark = landMarkIndex;
+        SceneManager.LoadScene("Attraction");
     }
 
     private void OnToggleValueChanged(bool isOn)

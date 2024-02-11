@@ -18,13 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Stationinfo.unity
     guid: 7aee21a51617f7f45818317ae85d1abf
   - enabled: 1
-    path: Assets/Scenes/Temp/SceneModel.unity
-    guid: dc51ff6c62c4c77468d91c15a93647bf
-  - enabled: 1
-    path: Assets/Scenes/Temp/Scene360.unity
-    guid: 939ab1674f3c4e64eaaf693f72bc233f
-  - enabled: 1
     path: Assets/Scenes/Favourite.unity
     guid: 0a4403d3c1dc6294c87da8bcb3703e0a
+  - enabled: 1
+    path: Assets/Scenes/Attraction.unity
+    guid: a90ca04460e7e9143afc7b8c3ff21dec
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
