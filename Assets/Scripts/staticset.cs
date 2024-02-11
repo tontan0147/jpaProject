@@ -11,6 +11,7 @@ public class staticset : MonoBehaviour
     public int model = 0;
     public int information = 0;
     public StationSO currentStation;
+    public StationSO.Landmark currentLandmark;
     public List<StationSO> stationSOList = new List<StationSO>();
 
 
