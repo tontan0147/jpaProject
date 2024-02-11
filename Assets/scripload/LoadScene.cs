@@ -29,7 +29,10 @@ public class LoadSceneder : MonoBehaviour
     {
         SceneManager.LoadScene("First");
     }
-
+    public void LoadSceneByString(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
     private IEnumerator delaySkybox()
     {
         if (loadingSceneImg != null)

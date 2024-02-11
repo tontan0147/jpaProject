@@ -10,6 +10,8 @@ public class staticset : MonoBehaviour
     public int sky = 0;
     public int model = 0;
     public int information = 0;
+    public List<StationSO> stationSOList = new List<StationSO>();
+
 
     private void Awake()
     {

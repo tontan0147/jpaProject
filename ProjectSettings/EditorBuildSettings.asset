@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Temp/Scene360.unity
     guid: 939ab1674f3c4e64eaaf693f72bc233f
   - enabled: 1
-    path: Assets/Scenes/favorit.unity
+    path: Assets/Scenes/Favourite.unity
     guid: 0a4403d3c1dc6294c87da8bcb3703e0a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

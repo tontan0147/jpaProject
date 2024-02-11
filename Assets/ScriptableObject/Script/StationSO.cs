@@ -34,14 +34,23 @@ public class StationSO : ScriptableObject
     [SerializeField] private Sprite stationMainPicture;
     [SerializeField] private Sprite[] stationSubPictures;
     [SerializeField] private Flag[] flags;
+    [SerializeField] private bool isFav = false;
 
     public string GetStationName => stationName;
     public string GetStationKeyword => stationKeyword;
-    public Visual GetStationOverview => visual;
+    public Visual GetStationVisual => visual;
     public string GetSchedule => schedule;
     public Sprite GetStationMainPicture => stationMainPicture;
     public Sprite[] GetStationSubPictures => stationSubPictures;
     public Flag[] GetAllFlags => flags;
+    public string GetStationDescription => infoText;
+    //public bool GetIsFavourite => isFav;
+    public Landmark[] GetLandmarks => landmarks;
+    public bool IsFav
+    {
+        get { return isFav; }
+        set { isFav = value; }
+    }
 
     [Header("Landmark")]
     [SerializeField] private Landmark[] landmarks;
@@ -49,3 +58,4 @@ public class StationSO : ScriptableObject
     [Header("Station Description")]
     [SerializeField] [TextArea(15, 20)] private string infoText;
 }
+
