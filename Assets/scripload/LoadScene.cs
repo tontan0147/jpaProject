@@ -6,26 +6,17 @@ using UnityEngine.SceneManagement;
 public class LoadSceneder : MonoBehaviour
 {
     public GameObject loadingSceneImg;
-    public void LoadSceneModel(int x){
-        staticset.Instance.model = x;
-        SceneManager.LoadScene("SceneModel");
-        if(loadingSceneImg != null)
-        {
-            loadingSceneImg.SetActive(true);
-        }
-    }
     public void LoadSceneskybox(int x){
         staticset.Instance.sky = x;
         StartCoroutine(delaySkybox());
     }
-    public void LoadSceneInformation(int x){
-        staticset.Instance.information = x;
-        SceneManager.LoadScene("Information");
-    }
     public void LoadSceneStationList(){
         SceneManager.LoadScene("StationList");
     }
-
+    public void LoadFavScene()
+    {
+        SceneManager.LoadScene("Favourite");
+    }
     public void LoadSceneStationOverview(StationSO station)
     {
         staticset.Instance.currentStation = station;

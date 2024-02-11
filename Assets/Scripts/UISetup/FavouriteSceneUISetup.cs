@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 public class FavouriteSceneUISetup : MonoBehaviour
 {
     [SerializeField] private ShortcutButton favButtonTemplate;
@@ -23,11 +25,17 @@ public class FavouriteSceneUISetup : MonoBehaviour
             {
                 ShortcutButton newButton = Instantiate(favButtonTemplate, verticalLayout.transform);
                 newButton.Init(so.GetStationName, so.GetStationMainPicture);
-                newButton.gameObject.SetActive(transform);
-                newButton.GetComponent<Button>().onClick.AddListener(() => newButton.gameObject.SetActive(false));
+                newButton.gameObject.SetActive(true);
+                newButton.GetComponent<Button>().onClick.AddListener(() => LoadInfoScene(so));
             }
         }
         favButtonTemplate.gameObject.SetActive(false);
+    }
+
+    public void LoadInfoScene(StationSO station)
+    {
+        staticset.Instance.currentStation = station;
+        SceneManager.LoadScene("StationInfo");
     }
 }
 
