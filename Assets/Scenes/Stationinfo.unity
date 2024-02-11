@@ -2981,7 +2981,7 @@ MonoBehaviour:
   landmarkButtonTemplate: {fileID: 1157503362}
   verticalLayout: {fileID: 1909057521}
   notificationText: {fileID: 78742476}
-  stationSO: {fileID: 11400000, guid: cfac90289bcb32e479ea614df5e92d53, type: 2}
+  stationSO: {fileID: 0}
 --- !u!1 &1696021366
 GameObject:
   m_ObjectHideFlags: 0

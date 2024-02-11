@@ -15,6 +15,10 @@ public class InfoSceneUISetup : MonoBehaviour
     public StationSO stationSO;
     private Coroutine notificationCR;
 
+    private void Awake()
+    {
+        stationSO = staticset.Instance.currentStation;
+    }
     void Start()
     {
         stationName.text = stationSO.GetStationName;

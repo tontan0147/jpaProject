@@ -10,6 +10,7 @@ public class staticset : MonoBehaviour
     public int sky = 0;
     public int model = 0;
     public int information = 0;
+    public StationSO currentStation;
     public List<StationSO> stationSOList = new List<StationSO>();
 
 

@@ -25,6 +25,13 @@ public class LoadSceneder : MonoBehaviour
     public void LoadSceneStationList(){
         SceneManager.LoadScene("StationList");
     }
+
+    public void LoadSceneStationOverview(StationSO station)
+    {
+        staticset.Instance.currentStation = station;
+        SceneManager.LoadScene("StationInfo");
+    }
+
     public void LoadFirstScene()
     {
         SceneManager.LoadScene("First");
