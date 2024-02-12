@@ -413,10 +413,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2008102335}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1846.0417, y: 2660.0164}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0.00004521123, y: -49}
+  m_SizeDelta: {x: 3170.9329, y: 945.36255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &818467953
 MonoBehaviour:
@@ -605,11 +605,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2008102335}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011092, y: -218.29959}
-  m_SizeDelta: {x: 142.25, y: 176.0934}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 142.25, y: 176.09338}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1143840219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1588,6 +1588,7 @@ MonoBehaviour:
     landmarkSchedule: 
     landmarkPicture: []
     landmarkDescription: 
+    landmarkTravel: 
   stationSOList:
   - {fileID: 11400000, guid: cfac90289bcb32e479ea614df5e92d53, type: 2}
   - {fileID: 11400000, guid: 4e1eac11bacd91940aa7d77b56653020, type: 2}

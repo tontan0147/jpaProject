@@ -11,6 +11,7 @@ public class LandmarkSceneUISetup : MonoBehaviour
     [SerializeField] private TextMeshProUGUI stationName;
     [SerializeField] private TextMeshProUGUI stationDes;
     [SerializeField] private TextMeshProUGUI schedule;
+    [SerializeField] private TextMeshProUGUI travel;
     public StationSO station;
     private StationSO.Landmark landmark;
 
@@ -33,6 +34,7 @@ public class LandmarkSceneUISetup : MonoBehaviour
         
         mainPicture.sprite = landmark.landmarkPicture[0];
         stationDes.text = landmark.landmarkDescription;
+        travel.text = landmark.landmarkTravel;
     }
     void Update()
     {

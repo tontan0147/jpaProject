@@ -12,7 +12,8 @@ public class StationSO : ScriptableObject
         public string landmarkName;
         public string landmarkSchedule;
         public Sprite[] landmarkPicture;
-        public string landmarkDescription;
+        [TextArea(1, 3)] public string landmarkDescription;
+        [TextArea(1, 3)] public string landmarkTravel;
     }
     public enum Visual
     {
