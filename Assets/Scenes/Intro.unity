@@ -1624,6 +1624,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8c096a594c831794b93e4fa7c2992b10, type: 2}
   - {fileID: 11400000, guid: 0cb7dc5866cee174aa45cafef65ddcc2, type: 2}
   - {fileID: 11400000, guid: 6efc1bc3dfb4c56409309ce1c3ccf57b, type: 2}
+  recStationSOList:
+  - {fileID: 11400000, guid: b4cddeb3ac680e0449820ed5734311b1, type: 2}
+  - {fileID: 11400000, guid: dab12c718aa95b8419703f6191303f0d, type: 2}
+  - {fileID: 11400000, guid: cb227e626a5c778478b0478ebf8cece4, type: 2}
+  - {fileID: 11400000, guid: 89d11bdfdffcfae44af5d35879442117, type: 2}
+  - {fileID: 11400000, guid: 4e1eac11bacd91940aa7d77b56653020, type: 2}
+  - {fileID: 11400000, guid: 852c8945fd316cc4282222a19db6ad56, type: 2}
 --- !u!4 &2004792291
 Transform:
   m_ObjectHideFlags: 0

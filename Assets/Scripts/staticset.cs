@@ -13,6 +13,7 @@ public class staticset : MonoBehaviour
     public StationSO currentStation;
     public StationSO.Landmark currentLandmark;
     public List<StationSO> stationSOList = new List<StationSO>();
+    public List<StationSO> recStationSOList = new List<StationSO>();
 
 
     private void Awake()
