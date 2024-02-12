@@ -775,7 +775,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Wellcome \n    Let's Enjoy Your Trip"
+  m_text: "Welcome \n    Let's Enjoy Your Trip"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1582,6 +1582,11 @@ MonoBehaviour:
   sky: 0
   model: 0
   information: 0
+  currentStation: {fileID: 0}
+  currentLandmark:
+    landmarkName: 
+    landmarkPicture: []
+    landmarkDescription: 
   stationSOList:
   - {fileID: 11400000, guid: cfac90289bcb32e479ea614df5e92d53, type: 2}
 --- !u!4 &2004792291
