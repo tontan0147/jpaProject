@@ -1334,6 +1334,7 @@ GameObject:
   - component: {fileID: 674058681}
   - component: {fileID: 674058683}
   - component: {fileID: 674058682}
+  - component: {fileID: 674058684}
   m_Layer: 5
   m_Name: ShortcutPanel
   m_TagString: Untagged
@@ -1402,6 +1403,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674058680}
   m_CullTransparentMesh: 1
+--- !u!114 &674058684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674058680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f3df62971fcb0b4d9e774dcb12f329d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  homeButton: {fileID: 1998672983}
+  scheduleButton: {fileID: 212255175}
+  mapButton: {fileID: 1944499588}
+  favButton: {fileID: 1711501761}
 --- !u!1 &833463644
 GameObject:
   m_ObjectHideFlags: 0

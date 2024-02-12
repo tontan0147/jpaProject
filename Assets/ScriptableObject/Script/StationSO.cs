@@ -10,8 +10,9 @@ public class StationSO : ScriptableObject
     public struct Landmark
     {
         public string landmarkName;
+        public string landmarkSchedule;
         public Sprite[] landmarkPicture;
-        [TextArea(3, 5)] public string landmarkDescription;
+        public string landmarkDescription;
     }
     public enum Visual
     {
@@ -30,7 +31,7 @@ public class StationSO : ScriptableObject
     [SerializeField] private string stationName = "Station";
     [SerializeField] private string stationKeyword = "Key";
     [SerializeField] private Visual visual = Visual.BOTH;
-    [SerializeField] private string schedule = "9:00 - 10:00";
+    //[SerializeField] private string schedule = "9:00 - 10:00";
     [SerializeField] private Sprite stationMainPicture;
     [SerializeField] private Sprite[] stationSubPictures;
     [SerializeField] private Flag[] flags;
@@ -39,7 +40,7 @@ public class StationSO : ScriptableObject
     public string GetStationName => stationName;
     public string GetStationKeyword => stationKeyword;
     public Visual GetStationVisual => visual;
-    public string GetSchedule => schedule;
+    //public string GetSchedule => schedule;
     public Sprite GetStationMainPicture => stationMainPicture;
     public Sprite[] GetStationSubPictures => stationSubPictures;
     public Flag[] GetAllFlags => flags;

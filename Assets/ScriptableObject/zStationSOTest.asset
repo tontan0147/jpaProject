@@ -10,26 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e006c48fa683514c9daa122f74e0d7d, type: 3}
-  m_Name: StationSOTest
+  m_Name: zStationSOTest
   m_EditorClassIdentifier: 
   stationName: "\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1E\u0E2B\u0E25\u0E42\u0E22\u0E18\u0E34\u0E19"
   stationKeyword: "\u0E1E\u0E2B\u0E25\u0E42\u0E22\u0E18\u0E34\u0E19\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E42\u0E23\u0E07\u0E41\u0E23\u0E21\u0E23\u0E16\u0E44\u0E1F\u0E1F\u0E49\u0E32\u0E25\u0E32\u0E14\u0E1E\u0E23\u0E49\u0E32\u0E27"
   visual: 2
-  schedule: 9:00 - 10:00
   stationMainPicture: {fileID: 21300000, guid: f471ad28034df9e40ab56a75e16b2999, type: 3}
   stationSubPictures:
   - {fileID: 0}
   - {fileID: 0}
   flags: 000000000100000002000000
-  isFav: 0
+  isFav: 1
   landmarks:
   - landmarkName: "\u0E40\u0E0B\u0E19\u0E17\u0E23\u0E31\u0E25\u0E44\u0E23\u0E01\u0E47\u0E44\u0E21\u0E48\u0E23\u0E39\u0E49"
+    landmarkSchedule: 11:00-22:00
     landmarkPicture:
     - {fileID: 21300000, guid: 10464dad469de8f4e873620c59670a32, type: 3}
     - {fileID: 0}
     landmarkDescription: "\u0E23\u0E30\u0E22\u0E30\u0E17\u0E32\u0E07\u0E08\u0E32\u0E01\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13
       500 \u0E40\u0E21\u0E15\u0E23"
   - landmarkName: "\u0E08\u0E33\u0E1B\u0E35\u0E08\u0E33\u0E1B\u0E32"
+    landmarkSchedule: 01:00-12:00
     landmarkPicture:
     - {fileID: 21300000, guid: f6f3f5dca19d87741bf1ffcea168cfa4, type: 3}
     - {fileID: 0}

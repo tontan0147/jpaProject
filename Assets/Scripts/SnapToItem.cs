@@ -13,7 +13,7 @@ public class SnapToItem : MonoBehaviour
     public HorizontalLayoutGroup hlg;
 
     public TextMeshProUGUI nameLabel;
-    public Button[] buttonList;
+    private Button[] buttonList;
 
     private bool isSnapped;
     public float snapForce;
@@ -27,7 +27,8 @@ public class SnapToItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int currentItem = Mathf.RoundToInt((0 - contentPanel.localPosition.x / (sampleListItem.rect.width + hlg.spacing)));
+        //Debug.Log(sampleListItem.rect.width + "+" + hlg.spacing);
+        int currentItem = Mathf.RoundToInt((0 - contentPanel.localPosition.x / ((sampleListItem.rect.width + hlg.spacing) * 2)));
         //Debug.Log(currentItem);
 
         if(scrollRect.velocity.magnitude < 200 && !isSnapped)
@@ -35,13 +36,13 @@ public class SnapToItem : MonoBehaviour
             scrollRect.velocity = Vector2.zero;
             snapSpeed += snapForce * Time.deltaTime;
             contentPanel.localPosition = new Vector3(
-                Mathf.MoveTowards(contentPanel.localPosition.x, 0 - (currentItem * (sampleListItem.rect.width + hlg.spacing)), snapSpeed), 
+                Mathf.MoveTowards(contentPanel.localPosition.x, 0 - (currentItem * ((sampleListItem.rect.width + hlg.spacing) * 2)), snapSpeed), 
                 contentPanel.localPosition.y, 
                 contentPanel.localPosition.z);
             //SetButtonSize(currentItem);
             
             //nameLabel.text = currentItem.ToString();
-            if (contentPanel.localPosition.x == 0 - (currentItem * (sampleListItem.rect.width + hlg.spacing)))
+            if (contentPanel.localPosition.x == 0 - (currentItem * ((sampleListItem.rect.width + hlg.spacing) * 2)))
             {
                 isSnapped = true;
             }

@@ -6,10 +6,6 @@ using UnityEngine.SceneManagement;
 public class LoadSceneder : MonoBehaviour
 {
     public GameObject loadingSceneImg;
-    public void LoadSceneskybox(int x){
-        staticset.Instance.sky = x;
-        StartCoroutine(delaySkybox());
-    }
     public void LoadSceneStationList(){
         SceneManager.LoadScene("StationList");
     }
@@ -35,14 +31,14 @@ public class LoadSceneder : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
-    private IEnumerator delaySkybox()
-    {
-        if (loadingSceneImg != null)
-        {
-            loadingSceneImg.SetActive(true);
-        }
-        yield return new WaitForSeconds(0.1f);
-        SceneManager.LoadScene("Scene360");
-    }
+    //private IEnumerator delaySkybox()
+    //{
+    //    if (loadingSceneImg != null)
+    //    {
+    //        loadingSceneImg.SetActive(true);
+    //    }
+    //    yield return new WaitForSeconds(0.1f);
+    //    SceneManager.LoadScene("Scene360");
+    //}
 
 }

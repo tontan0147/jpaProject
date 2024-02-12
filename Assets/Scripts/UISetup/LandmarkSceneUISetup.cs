@@ -11,7 +11,7 @@ public class LandmarkSceneUISetup : MonoBehaviour
     [SerializeField] private TextMeshProUGUI stationDes;
     [SerializeField] private TextMeshProUGUI schedule;
     public StationSO station;
-    public StationSO.Landmark landmark;
+    private StationSO.Landmark landmark;
 
     private void Awake()
     {
@@ -21,7 +21,15 @@ public class LandmarkSceneUISetup : MonoBehaviour
     void Start()
     {
         stationName.text = stationName.text + landmark.landmarkName;
-        schedule.text = schedule.text + station.GetSchedule;
+        if(landmark.landmarkSchedule == null)
+        {
+            schedule.text = schedule.text + "-";
+        }
+        else
+        {
+            schedule.text = schedule.text + landmark.landmarkSchedule;
+        }
+        
         mainPicture.sprite = landmark.landmarkPicture[0];
         stationDes.text = landmark.landmarkDescription;
     }

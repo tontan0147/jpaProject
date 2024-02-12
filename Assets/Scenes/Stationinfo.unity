@@ -1378,7 +1378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2085,9 +2085,9 @@ RectTransform:
   - {fileID: 811452442}
   m_Father: {fileID: 100652674}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 389.02112, y: -94.25295}
   m_SizeDelta: {x: 144.31407, y: 170.5059}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &866244414
@@ -2191,9 +2191,9 @@ RectTransform:
   - {fileID: 27115196}
   m_Father: {fileID: 100652674}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 224.70703, y: -94.25295}
   m_SizeDelta: {x: 144.31407, y: 170.5059}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &896646584
@@ -3205,6 +3205,7 @@ GameObject:
   - component: {fileID: 1439195077}
   - component: {fileID: 1439195079}
   - component: {fileID: 1439195078}
+  - component: {fileID: 1439195080}
   m_Layer: 5
   m_Name: ShortcutPanel
   m_TagString: Untagged
@@ -3273,6 +3274,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439195076}
   m_CullTransparentMesh: 1
+--- !u!114 &1439195080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439195076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f3df62971fcb0b4d9e774dcb12f329d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  homeButton: {fileID: 40370575}
+  scheduleButton: {fileID: 1696021369}
+  mapButton: {fileID: 967178394}
+  favButton: {fileID: 638328538}
 --- !u!1 &1455577392
 GameObject:
   m_ObjectHideFlags: 0
@@ -4450,9 +4467,9 @@ RectTransform:
   - {fileID: 669915441}
   m_Father: {fileID: 100652674}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 68.775, y: -94.25295}
   m_SizeDelta: {x: 127.55, y: 170.5059}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003217419

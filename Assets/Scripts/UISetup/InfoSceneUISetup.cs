@@ -34,10 +34,20 @@ public class InfoSceneUISetup : MonoBehaviour
         foreach (StationSO.Landmark item in stationSO.GetLandmarks)
         {
             int cur = i;
-            ShortcutButton newButton = Instantiate(landmarkButtonTemplate, verticalLayout.transform);
-            newButton.Init(item.landmarkName, item.landmarkPicture[i]);
-            newButton.gameObject.SetActive(true);
-            newButton.GetComponent<Button>().onClick.AddListener(() => LoadSceneLandmark(item));
+            if(item.landmarkName != "")
+            {
+                ShortcutButton newButton = Instantiate(landmarkButtonTemplate, verticalLayout.transform);
+                if (item.landmarkPicture.Length != 0)
+                {
+                    newButton.Init(item.landmarkName, item.landmarkPicture[i]);
+                }
+                else
+                {
+                    Debug.Log(stationSO.GetStationName + " doesn't set the landmark name/picture!");
+                }
+                newButton.gameObject.SetActive(true);
+                newButton.GetComponent<Button>().onClick.AddListener(() => LoadSceneLandmark(item));
+            }
             i++;
         }
         landmarkButtonTemplate.gameObject.SetActive(false);

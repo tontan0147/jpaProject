@@ -1585,10 +1585,44 @@ MonoBehaviour:
   currentStation: {fileID: 0}
   currentLandmark:
     landmarkName: 
+    landmarkSchedule: 
     landmarkPicture: []
     landmarkDescription: 
   stationSOList:
   - {fileID: 11400000, guid: cfac90289bcb32e479ea614df5e92d53, type: 2}
+  - {fileID: 11400000, guid: 4e1eac11bacd91940aa7d77b56653020, type: 2}
+  - {fileID: 11400000, guid: 74c0c0bd3c54f8041928c544c2771b9b, type: 2}
+  - {fileID: 11400000, guid: ce7476193536fb342bcddde74d4a5743, type: 2}
+  - {fileID: 11400000, guid: b4cddeb3ac680e0449820ed5734311b1, type: 2}
+  - {fileID: 11400000, guid: dab12c718aa95b8419703f6191303f0d, type: 2}
+  - {fileID: 11400000, guid: c39d58ea647dad14f8bf743de7b7293f, type: 2}
+  - {fileID: 11400000, guid: fbd1fa4d2d0620f43887130d95278267, type: 2}
+  - {fileID: 11400000, guid: 60dcc4b04255d6c45a58cde6734c1848, type: 2}
+  - {fileID: 11400000, guid: fe2d7e2f3d264b64e8d44ee232769dea, type: 2}
+  - {fileID: 11400000, guid: 342fb2e398c2e9b498c311c6e78ca986, type: 2}
+  - {fileID: 11400000, guid: 2cdb28377c25fb04a8a6a8b9f648ff51, type: 2}
+  - {fileID: 11400000, guid: 6f583278365409642a7bab9420ee9538, type: 2}
+  - {fileID: 11400000, guid: 6b2bbeb0af56e644d91d99580716d667, type: 2}
+  - {fileID: 11400000, guid: 1e4446b5913663b46ae4cffe6b6ee373, type: 2}
+  - {fileID: 11400000, guid: 8d6278cb20fc36045b9cc09171f4a790, type: 2}
+  - {fileID: 11400000, guid: 2585dec1256072e42a8004733fea37cc, type: 2}
+  - {fileID: 11400000, guid: ad8eefebbbdbdf841a071f5f73a42cc3, type: 2}
+  - {fileID: 11400000, guid: 4472b36458bbe594690122b961492357, type: 2}
+  - {fileID: 11400000, guid: b2c4573803fdb4a4684db04610b3b407, type: 2}
+  - {fileID: 11400000, guid: 8f8564318751d8b419bcbee401a7984b, type: 2}
+  - {fileID: 11400000, guid: 31e695e27ceefca469699e927158be73, type: 2}
+  - {fileID: 11400000, guid: ff09fcd4ea033724b83324877cacc557, type: 2}
+  - {fileID: 11400000, guid: aaa8adb99b8fb144abec31b00f03dc46, type: 2}
+  - {fileID: 11400000, guid: 852c8945fd316cc4282222a19db6ad56, type: 2}
+  - {fileID: 11400000, guid: 86a45fa80de569a43a45550e002f92de, type: 2}
+  - {fileID: 11400000, guid: 8eb82d08a43786949b5500325f42f001, type: 2}
+  - {fileID: 11400000, guid: 2c45cf958566d8d4d9392a5b8f13c458, type: 2}
+  - {fileID: 11400000, guid: cb227e626a5c778478b0478ebf8cece4, type: 2}
+  - {fileID: 11400000, guid: 89d11bdfdffcfae44af5d35879442117, type: 2}
+  - {fileID: 11400000, guid: 7042cff5dd9374044b9aa98640ff42e0, type: 2}
+  - {fileID: 11400000, guid: 8c096a594c831794b93e4fa7c2992b10, type: 2}
+  - {fileID: 11400000, guid: 0cb7dc5866cee174aa45cafef65ddcc2, type: 2}
+  - {fileID: 11400000, guid: 6efc1bc3dfb4c56409309ce1c3ccf57b, type: 2}
 --- !u!4 &2004792291
 Transform:
   m_ObjectHideFlags: 0
