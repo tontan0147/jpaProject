@@ -32,6 +32,14 @@ public class FavouriteSceneUISetup : MonoBehaviour
         favButtonTemplate.gameObject.SetActive(false);
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("First");
+        }
+    }
+
     public void LoadInfoScene(StationSO station)
     {
         staticset.Instance.currentStation = station;

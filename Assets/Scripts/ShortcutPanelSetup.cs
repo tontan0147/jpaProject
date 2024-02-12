@@ -15,7 +15,7 @@ public class ShortcutPanelSetup : MonoBehaviour
     private void Start()
     {
         homeButton.onClick.AddListener(() => SceneManager.LoadScene("First"));
-        scheduleButton.onClick.AddListener(() => SceneManager.LoadScene("Information"));
+        scheduleButton.onClick.AddListener(() => SceneManager.LoadScene("Schedule"));
         mapButton.onClick.AddListener(() => SceneManager.LoadScene("Information"));
         favButton.onClick.AddListener(() => SceneManager.LoadScene("Favourite"));
     }

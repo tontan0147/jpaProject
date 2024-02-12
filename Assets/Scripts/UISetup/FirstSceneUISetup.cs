@@ -38,6 +38,14 @@ public class FirstSceneUISetup : MonoBehaviour
         staticset.Instance.currentStation = station;
         SceneManager.LoadScene("StationInfo");
     }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("First");
+        }
+    }
+
     private void FindObjectsByPartialName(string partialName)
     {
         bool isFound = false;

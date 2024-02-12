@@ -53,6 +53,14 @@ public class InfoSceneUISetup : MonoBehaviour
         landmarkButtonTemplate.gameObject.SetActive(false);
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("First");
+        }
+    }
+
     private void LoadSceneLandmark(StationSO.Landmark landMarkIndex)
     {
         staticset.Instance.currentStation = stationSO;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LandmarkSceneUISetup : MonoBehaviour
 {
@@ -32,5 +33,18 @@ public class LandmarkSceneUISetup : MonoBehaviour
         
         mainPicture.sprite = landmark.landmarkPicture[0];
         stationDes.text = landmark.landmarkDescription;
+    }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            BacktoStation();
+        }
+    }
+
+    public void BacktoStation()
+    {
+        staticset.Instance.currentStation = station;
+        SceneManager.LoadScene("StationInfo");
     }
 }
