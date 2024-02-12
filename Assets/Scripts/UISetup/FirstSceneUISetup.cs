@@ -9,7 +9,8 @@ public class FirstSceneUISetup : MonoBehaviour
 {
     [SerializeField] private TMP_InputField searchInputField; // Reference to the TMP InputField in the Inspector
     [SerializeField] private GameObject noSearchResultText;
-    
+    [SerializeField] private GameObject recNoSearchResultText;
+
     [SerializeField] private ShortcutStationButton stationButtonTemplate;
     [SerializeField] private ShortcutStationButton recStationButtonTemplate;
     [SerializeField] private GameObject horizontalLayout;
@@ -63,7 +64,9 @@ public class FirstSceneUISetup : MonoBehaviour
     private void FindObjectsByPartialName(string partialName)
     {
         bool isFound = false;
+        bool isRecFound = false;
         noSearchResultText.SetActive(isFound);
+        recNoSearchResultText.SetActive(isRecFound);
         foreach (ShortcutStationButton button in shortcutStationButtonList)
         {
             bool shouldSetActive = button.GetLocationName.Contains(partialName);
@@ -79,12 +82,16 @@ public class FirstSceneUISetup : MonoBehaviour
             button.gameObject.SetActive(shouldSetActive);
             if (shouldSetActive)
             {
-                isFound = true;
+                isRecFound = true;
             }
         }
         if (!isFound)
         {
             noSearchResultText.SetActive(true);
+        }
+        if (!isRecFound)
+        {
+            recNoSearchResultText.SetActive(true);
         }
     }
 

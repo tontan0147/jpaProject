@@ -35,7 +35,7 @@ public class Information : MonoBehaviour
 	void Start()
 	{
 		mainCamera = GetComponent<Camera>();
-		InformationChange(staticset.Instance.information);
+		//InformationChange(staticset.Instance.information);
 	}
 
 	// Update is called once per frame
@@ -59,23 +59,20 @@ public class Information : MonoBehaviour
 			zoomModifier = (firstTouch.deltaPosition - secondTouch.deltaPosition).magnitude * zoomModifierSpeed;
 
 			if (touchesPrevPosDifference > touchesCurPosDifference)
-				//Debug.Log("Zoom" + zoomModifier);
 				mainCamera.orthographicSize += zoomModifier;
 			if (touchesPrevPosDifference < touchesCurPosDifference)
-				//Debug.Log("Zoom" + zoomModifier);
 				mainCamera.orthographicSize -= zoomModifier;
 
 		}
-		//testText.text = zoomModifier.ToString();
-		mainCamera.orthographicSize = Mathf.Clamp(mainCamera.orthographicSize, 10f, 40f);
-		if(mainCamera.orthographicSize < 0)
+		mainCamera.orthographicSize = Mathf.Clamp(mainCamera.orthographicSize, 20f, 70f);
+		if(mainCamera.orthographicSize < 20)
         {
-			mainCamera.orthographicSize = 0;
+			mainCamera.orthographicSize = 20f;
 
 		}
-		if(mainCamera.orthographicSize > 40)
+		if(mainCamera.orthographicSize > 70)
         {
-			mainCamera.orthographicSize = 40;
+			mainCamera.orthographicSize = 70;
 
 		}
 	}
