@@ -777,8 +777,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Welcome \n    Let's Enjoy Your Trip"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8066ed49768e3df4e89af4fb2b8127cc, type: 2}
+  m_sharedMaterial: {fileID: -6023331647769089794, guid: 8066ed49768e3df4e89af4fb2b8127cc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -802,7 +802,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.8
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1065,8 +1065,8 @@ MonoBehaviour:
   m_text: "\u0E25\u0E07\u0E40\u0E23\u0E37\u0E2D\u0E41\u0E25\u0E49\u0E27\u0E40\u0E23\u0E34\u0E48\u0E21\u0E1C\u0E08\u0E0D\u0E20\u0E31\u0E22!
     \u0E04\u0E49\u0E19\u0E2B\u0E32\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E17\u0E48\u0E2D\u0E07\u0E40\u0E17\u0E35\u0E48\u0E22\u0E27\u0E17\u0E35\u0E48\u0E19\u0E48\u0E32\u0E2A\u0E19\u0E43\u0E08\u0E14\u0E49\u0E27\u0E22\u0E41\u0E2D\u0E1E\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64681d184eccbe54fa488d491a83c1ad, type: 2}
-  m_sharedMaterial: {fileID: -4418040940074151875, guid: 64681d184eccbe54fa488d491a83c1ad, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cadafcd1fc9800e4fb86dd16ea155d84, type: 2}
+  m_sharedMaterial: {fileID: -7762477479104377110, guid: cadafcd1fc9800e4fb86dd16ea155d84, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 51.5
+  m_fontSize: 53.1
   m_fontSizeBase: 46.7
   m_fontWeight: 400
   m_enableAutoSizing: 1

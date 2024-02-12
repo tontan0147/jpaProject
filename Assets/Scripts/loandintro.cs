@@ -18,7 +18,7 @@ public class loandintro : MonoBehaviour
     {
 
         // Wait for the animation to complete
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(2.5f);
 
         // Load the next scene
         SceneManager.LoadScene(nextSceneName);
