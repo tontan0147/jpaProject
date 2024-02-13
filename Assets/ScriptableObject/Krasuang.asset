@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e006c48fa683514c9daa122f74e0d7d, type: 3}
   m_Name: Krasuang
   m_EditorClassIdentifier: 
-  stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E01\u0E23\u0E30\u0E17\u0E23\u0E27\u0E07"
-  stationKeyword: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14"
+  stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E01\u0E23\u0E30\u0E17\u0E23\u0E27\u0E07\u0E1E\u0E32\u0E13\u0E34\u0E0A\u0E22\u0E4C"
+  stationKeyword: 
   visual: 2
-  stationMainPicture: {fileID: 0}
+  stationMainPicture: {fileID: 21300000, guid: dc591e12b3ae6aa47984d931cfd4a66f, type: 3}
   stationSubPictures: []
   flags: 00000000
   isFav: 0
@@ -24,4 +24,5 @@ MonoBehaviour:
     landmarkSchedule: 
     landmarkPicture: []
     landmarkDescription: 
-  infoText: "\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14\u0E43\u0E01\u0E25\u0E49\u0E1A\u0E49\u0E32\u0E19\u0E04\u0E38\u0E13"
+    landmarkTravel: 
+  infoText: "\u0E40\u0E1B\u0E47\u0E19\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E43\u0E2B\u0E49\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E41\u0E25\u0E30\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E01\u0E23\u0E30\u0E17\u0E23\u0E27\u0E07\u0E1E\u0E32\u0E13\u0E34\u0E0A\u0E22\u0E4C\u0E43\u0E0A\u0E49\u0E43\u0E19\u0E01\u0E32\u0E23\u0E40\u0E14\u0E34\u0E19\u0E17\u0E32\u0E07\u0E21\u0E32\u0E17\u0E33\u0E07\u0E32\u0E19"
