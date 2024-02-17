@@ -1,5 +1,0 @@
-E:/jpaProject/.utmp/RelWithDebInfo/1s3q6173/armeabi-v7a/CMakeFiles/edit_cache.dir
-E:/jpaProject/.utmp/RelWithDebInfo/1s3q6173/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-E:/jpaProject/.utmp/RelWithDebInfo/1s3q6173/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
-E:/jpaProject/.utmp/RelWithDebInfo/1s3q6173/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
-E:/jpaProject/.utmp/RelWithDebInfo/1s3q6173/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
