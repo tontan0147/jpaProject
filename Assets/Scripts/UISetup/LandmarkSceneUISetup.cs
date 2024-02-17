@@ -32,7 +32,10 @@ public class LandmarkSceneUISetup : MonoBehaviour
             schedule.text = schedule.text + landmark.landmarkSchedule;
         }
         
-        mainPicture.sprite = landmark.landmarkPicture[0];
+        if(landmark.landmarkPicture.Length > 0)
+        {
+            mainPicture.sprite = landmark.landmarkPicture[0];
+        }
         stationDes.text = landmark.landmarkDescription;
         travel.text = landmark.landmarkTravel;
     }

@@ -43,6 +43,7 @@ public class InfoSceneUISetup : MonoBehaviour
                 }
                 else
                 {
+                    newButton.Init(item.landmarkName, null);
                     Debug.Log(stationSO.GetStationName + " doesn't set the landmark name/picture!");
                 }
                 newButton.gameObject.SetActive(true);
