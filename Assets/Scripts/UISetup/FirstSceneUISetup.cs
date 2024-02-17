@@ -28,12 +28,14 @@ public class FirstSceneUISetup : MonoBehaviour
     {
         foreach (StationSO so in staticset.Instance.stationSOList)
         {
-            ShortcutStationButton newButton = Instantiate(stationButtonTemplate, horizontalLayout.transform);
-            newButton.gameObject.SetActive(true);
-            newButton.Init(so.GetStationName, so.GetStationMainPicture, so.GetAllFlags);
-            newButton.GetComponent<Button>().onClick.AddListener(() => LoadStationOverviewScene(so));
-            //newButton.transform.SetAsFirstSibling();
-            shortcutStationButtonList.Add(newButton);
+            if(so != null)
+            {
+                ShortcutStationButton newButton = Instantiate(stationButtonTemplate, horizontalLayout.transform);
+                newButton.gameObject.SetActive(true);
+                newButton.Init(so.GetStationName, so.GetStationMainPicture, so.GetAllFlags);
+                newButton.GetComponent<Button>().onClick.AddListener(() => LoadStationOverviewScene(so));
+                shortcutStationButtonList.Add(newButton);
+            }
         }
         stationButtonTemplate.gameObject.SetActive(false);
 

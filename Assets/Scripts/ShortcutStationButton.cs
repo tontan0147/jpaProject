@@ -14,6 +14,10 @@ public class ShortcutStationButton : MonoBehaviour
     private Sprite currentFlagTmp;
     private string locationName;
     public string GetLocationName => locationName;
+    private void Awake()
+    {
+        stationName.text = "No station name";
+    }
 
     public void Init(string name, Sprite pic, StationSO.Flag[] flags)
     {

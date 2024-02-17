@@ -1590,8 +1590,7 @@ MonoBehaviour:
     landmarkDescription: 
     landmarkTravel: 
   stationSOList:
-  - {fileID: 11400000, guid: cfac90289bcb32e479ea614df5e92d53, type: 2}
-  - {fileID: 11400000, guid: 4e1eac11bacd91940aa7d77b56653020, type: 2}
+  - {fileID: 11400000, guid: ca53b83a20054ff4fb1149fc34341179, type: 2}
   - {fileID: 11400000, guid: 74c0c0bd3c54f8041928c544c2771b9b, type: 2}
   - {fileID: 11400000, guid: ce7476193536fb342bcddde74d4a5743, type: 2}
   - {fileID: 11400000, guid: b4cddeb3ac680e0449820ed5734311b1, type: 2}
@@ -1629,7 +1628,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dab12c718aa95b8419703f6191303f0d, type: 2}
   - {fileID: 11400000, guid: cb227e626a5c778478b0478ebf8cece4, type: 2}
   - {fileID: 11400000, guid: 89d11bdfdffcfae44af5d35879442117, type: 2}
-  - {fileID: 11400000, guid: 4e1eac11bacd91940aa7d77b56653020, type: 2}
   - {fileID: 11400000, guid: 852c8945fd316cc4282222a19db6ad56, type: 2}
 --- !u!4 &2004792291
 Transform:
