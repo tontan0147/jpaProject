@@ -14,6 +14,8 @@ public class InfoSceneUISetup : MonoBehaviour
     [SerializeField] private ShortcutButton landmarkButtonTemplate;
     [SerializeField] private GameObject verticalLayout;
     [SerializeField] private GameObject notificationText;
+    [SerializeField] private StationImageObject stationImagePrefab;
+    [SerializeField] private GameObject contentTransform;
     public StationSO stationSO;
     private Coroutine notificationCR;
 
@@ -30,6 +32,15 @@ public class InfoSceneUISetup : MonoBehaviour
 
         favToggle.onValueChanged.AddListener(OnToggleValueChanged);
 
+        foreach (Sprite img in stationSO.GetStationSubPictures)
+        {
+            if(img != null)
+            {
+                StationImageObject newImage = Instantiate(stationImagePrefab, contentTransform.transform);
+                newImage.InitImage(img);
+            }
+        }
+
         int i = 0;
         foreach (StationSO.Landmark item in stationSO.GetLandmarks)
         {
@@ -37,9 +48,9 @@ public class InfoSceneUISetup : MonoBehaviour
             if(item.landmarkName != "")
             {
                 ShortcutButton newButton = Instantiate(landmarkButtonTemplate, verticalLayout.transform);
-                if (item.landmarkPicture.Length != 0)
+                if (item.landmarkMainPicture != null)
                 {
-                    newButton.Init(item.landmarkName, item.landmarkPicture[i]);
+                    newButton.Init(item.landmarkName, item.landmarkMainPicture);
                 }
                 else
                 {

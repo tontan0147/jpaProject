@@ -15,9 +15,19 @@ MonoBehaviour:
   stationName: "\u0E17\u0E48\u0E32\u0E2D\u0E32\u0E17\u0E34\u0E15\u0E22\u0E4C"
   stationKeyword: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E2D\u0E32\u0E17\u0E34\u0E15\u0E22\u0E4C"
   visual: 2
-  stationMainPicture: {fileID: 0}
-  stationSubPictures: []
-  flags: 0000000000000000
-  isFav: 0
-  landmarks: []
+  stationMainPicture: {fileID: 21300000, guid: fd55013096e24fc4fa927d4560e97175, type: 3}
+  stationSubPictures:
+  - {fileID: 21300000, guid: accb030eeda6d6d4e891cbd45a7ba82b, type: 3}
+  - {fileID: 21300000, guid: f6f3f5dca19d87741bf1ffcea168cfa4, type: 3}
+  flags: 00000000
+  isFav: 1
+  landmarks:
+  - landmarkName: "\u0E2A\u0E19\u0E32\u0E21\u0E1A\u0E34\u0E19\u0E1E\u0E23\u0E30\u0E2D\u0E32\u0E17\u0E34\u0E15\u0E22\u0E4C"
+    landmarkSchedule: "\u0E40\u0E1B\u0E34\u0E14\u0E19\u0E32\u0E19\u0E46\u0E40\u0E14\u0E30\u0E01\u0E47\u0E1C\u0E34\u0E14"
+    landmarkMainPicture: {fileID: 21300000, guid: f471ad28034df9e40ab56a75e16b2999, type: 3}
+    landmarkSubPicture:
+    - {fileID: 21300000, guid: e019cd8c6a958a74bb226a0fd85030d6, type: 3}
+    - {fileID: 21300000, guid: 64f5428e485e0204db94d129eab4847f, type: 3}
+    landmarkDescription: "\u0E21\u0E35 Landmark"
+    landmarkTravel: "\u0E40\u0E14\u0E34\u0E19\u0E44\u0E1B"
   infoText: "\u0E17\u0E48\u0E32\u0E2D\u0E32\u0E17\u0E34\u0E15\u0E22\u0E4C\u0E15\u0E31\u0E27\u0E40\u0E17\u0E2A"

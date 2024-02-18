@@ -12,6 +12,8 @@ public class LandmarkSceneUISetup : MonoBehaviour
     [SerializeField] private TextMeshProUGUI stationDes;
     [SerializeField] private TextMeshProUGUI schedule;
     [SerializeField] private TextMeshProUGUI travel;
+    [SerializeField] private StationImageObject stationImagePrefab;
+    [SerializeField] private GameObject contentTransform;
     public StationSO station;
     private StationSO.Landmark landmark;
 
@@ -31,10 +33,19 @@ public class LandmarkSceneUISetup : MonoBehaviour
         {
             schedule.text = schedule.text + landmark.landmarkSchedule;
         }
-        
-        if(landmark.landmarkPicture.Length > 0)
+
+        if (landmark.landmarkMainPicture != null)
         {
-            mainPicture.sprite = landmark.landmarkPicture[0];
+            mainPicture.sprite = landmark.landmarkMainPicture;
+        }
+
+        foreach (Sprite img in landmark.landmarkSubPicture)
+        {
+            if (img != null)
+            {
+                StationImageObject newImage = Instantiate(stationImagePrefab, contentTransform.transform);
+                newImage.InitImage(img);
+            }
         }
         stationDes.text = landmark.landmarkDescription;
         travel.text = landmark.landmarkTravel;

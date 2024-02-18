@@ -18,6 +18,8 @@ public class SnapToItem : MonoBehaviour
     private bool isSnapped;
     public float snapForce;
     private float snapSpeed;
+    [SerializeField] private float snapAdjust;
+    [SerializeField] private int startVal;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,30 +29,30 @@ public class SnapToItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(sampleListItem.rect.width + "+" + hlg.spacing);
-        int currentItem = Mathf.RoundToInt((0 - contentPanel.localPosition.x / ((sampleListItem.rect.width + hlg.spacing) * 2)));
-        //Debug.Log(currentItem);
+        int currentItem = Mathf.RoundToInt((0 - (contentPanel.localPosition.x) / (sampleListItem.rect.width + hlg.spacing)));
+
+        if(currentItem < startVal)
+        {
+            currentItem = startVal;
+        }
 
         if(scrollRect.velocity.magnitude < 200 && !isSnapped)
         {
             scrollRect.velocity = Vector2.zero;
             snapSpeed += snapForce * Time.deltaTime;
             contentPanel.localPosition = new Vector3(
-                Mathf.MoveTowards(contentPanel.localPosition.x, 0 - (currentItem * ((sampleListItem.rect.width + hlg.spacing) * 2)), snapSpeed), 
+                Mathf.MoveTowards(contentPanel.localPosition.x, 0 - (currentItem * (sampleListItem.rect.width + hlg.spacing)) + snapAdjust, snapSpeed), 
                 contentPanel.localPosition.y, 
                 contentPanel.localPosition.z);
-            //SetButtonSize(currentItem);
-            
-            //nameLabel.text = currentItem.ToString();
-            if (contentPanel.localPosition.x == 0 - (currentItem * ((sampleListItem.rect.width + hlg.spacing) * 2)))
+            nameLabel.text = currentItem.ToString();
+            if (contentPanel.localPosition.x == 0 - (currentItem * (sampleListItem.rect.width + hlg.spacing)) + snapAdjust)
             {
                 isSnapped = true;
             }
         }
         if (scrollRect.velocity.magnitude > 200)
         {
-            //SetButtonSize(currentItem);
-            //nameLabel.text = currentItem.ToString();
+           nameLabel.text = currentItem.ToString();
             isSnapped = false;
             snapSpeed = 0;
         }
