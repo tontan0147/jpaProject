@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: BangPo
   m_EditorClassIdentifier: 
   stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1A\u0E32\u0E07\u0E42\u0E1E"
-  stationKeyword: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14"
+  stationKeyword: 
   visual: 2
   stationMainPicture: {fileID: 21300000, guid: d3ade87fb8fa55d4fb16f6a61ec6481a, type: 3}
   stationSubPictures: []
-  flags: 00000000
+  flags: 00000000010000000200000003000000
   isFav: 0
   landmarks:
   - landmarkName: Hoffmann
