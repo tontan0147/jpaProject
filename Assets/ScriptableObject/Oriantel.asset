@@ -13,15 +13,19 @@ MonoBehaviour:
   m_Name: Oriantel
   m_EditorClassIdentifier: 
   stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E42\u0E2D\u0E40\u0E23\u0E35\u0E22\u0E25\u0E40\u0E17\u0E25"
-  stationKeyword: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14"
+  stationKeyword: 
   visual: 2
-  stationMainPicture: {fileID: 0}
+  stationMainPicture: {fileID: 21300000, guid: 3b44618866c982945916477de21c9563, type: 3}
   stationSubPictures: []
-  flags: 00000000
+  flags: 01000000
   isFav: 0
   landmarks:
-  - landmarkName: 
+  - landmarkName: "\u0E2D\u0E32\u0E04\u0E32\u0E23\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17\u0E2D\u0E35\u0E2A\u0E17\u0E4C\u0E40\u0E2D\u0E40\u0E0A\u0E35\u0E22\u0E15\u0E34\u0E013"
     landmarkSchedule: 
-    landmarkPicture: []
+    landmarkMainPicture: {fileID: 21300000, guid: 5f9eca117efac9546aba148dbbae68c4, type: 3}
+    landmarkSubPicture:
+    - {fileID: 21300000, guid: e6f9b8d184bf4a34caac86a600f157cc, type: 3}
+    - {fileID: 21300000, guid: 7ddd0da4a5427e449b32f60d9103ec37, type: 3}
     landmarkDescription: 
+    landmarkTravel: 
   infoText: "\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14\u0E43\u0E01\u0E25\u0E49\u0E1A\u0E49\u0E32\u0E19\u0E04\u0E38\u0E13"

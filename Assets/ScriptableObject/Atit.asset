@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e006c48fa683514c9daa122f74e0d7d, type: 3}
   m_Name: Atit
   m_EditorClassIdentifier: 
-  stationName: "\u0E17\u0E48\u0E32\u0E40\u0E40\u0E23\u0E37\u0E2D\u0E1E\u0E23\u0E30\u0E2D\u0E32\u0E17\u0E34\u0E15\u0E22\u0E4C"
+  stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1E\u0E23\u0E30\u0E2D\u0E32\u0E17\u0E34\u0E15\u0E22\u0E4C"
   stationKeyword: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1E\u0E23\u0E30\u0E2D\u0E32\u0E17\u0E34\u0E15\u0E22\u0E4C"
   visual: 2
   stationMainPicture: {fileID: 21300000, guid: 55662c8e72ea6884db71864ed0172390, type: 3}

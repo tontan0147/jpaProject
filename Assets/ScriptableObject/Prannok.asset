@@ -15,18 +15,19 @@ MonoBehaviour:
   stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1E\u0E23\u0E32\u0E19\u0E19\u0E01"
   stationKeyword: 
   visual: 2
-  stationMainPicture: {fileID: 21300000, guid: 34966e19fa842ea4eafe083731b4ebab, type: 3}
+  stationMainPicture: {fileID: 21300000, guid: 7ec278e663568db4c9762820c78dd083, type: 3}
   stationSubPictures: []
   flags: 00000000
   isFav: 0
   landmarks:
   - landmarkName: "\u0E15\u0E25\u0E32\u0E14\u0E27\u0E31\u0E07\u0E2B\u0E25\u0E31\u0E07"
     landmarkSchedule: "\u0E17\u0E38\u0E01\u0E27\u0E31\u0E19 10:00 - 17:00"
-    landmarkPicture:
-    - {fileID: 21300000, guid: 34966e19fa842ea4eafe083731b4ebab, type: 3}
-    - {fileID: 21300000, guid: 74793f24db450de4ab370775ad531966, type: 3}
-    - {fileID: 21300000, guid: a75a78797d190b3448ffe4ecee135feb, type: 3}
-    - {fileID: 21300000, guid: 8fb36ac57517a3446a84ef80ed716549, type: 3}
+    landmarkMainPicture: {fileID: 0}
+    landmarkSubPicture:
+    - {fileID: 21300000, guid: 0380972e4b032b04595b192cf096f2e2, type: 3}
+    - {fileID: 21300000, guid: b0cd70508fee6294ab9c3fb3973d7b8a, type: 3}
+    - {fileID: 21300000, guid: 44f9c86ca2cb85343b4cfc8c18a60f33, type: 3}
+    - {fileID: 21300000, guid: 182fe71f6532eb148bd607416a10ceb7, type: 3}
     landmarkDescription: "\u0E0B\u0E39\u0E0A\u0E34\u0E2D\u0E23\u0E17\u0E31\u0E22
       \u0E0B\u0E39\u0E0A\u0E34\u0E27\u0E31\u0E07\u0E2B\u0E25\u0E31\u0E07\r\n\u0E40\u0E08\u0E4A\u0E41\u0E14\u0E07\u0E01\u0E4B\u0E27\u0E22\u0E08\u0E31\u0E4A\u0E1A\u0E0D\u0E27\u0E19
       (\u0E27\u0E31\u0E07\u0E2B\u0E25\u0E31\u0E07)\r\n\u0E2A\u0E32\u0E22\u0E44\u0E2B\u0E21
@@ -35,12 +36,13 @@ MonoBehaviour:
       280 \u0E40\u0E21\u0E15\u0E23"
   - landmarkName: ART COFFEE&CREPE
     landmarkSchedule: "\u0E17\u0E38\u0E01\u0E27\u0E31\u0E19 05:30 -19:00"
-    landmarkPicture:
-    - {fileID: 21300000, guid: d16bca760ffb0204aae963c19bac0b13, type: 3}
-    - {fileID: 21300000, guid: 78b24340a5944a544adad181f213c7f9, type: 3}
-    - {fileID: 21300000, guid: 2606aea84974ff74cada320c0f59079d, type: 3}
-    - {fileID: 21300000, guid: ee18c5a6bb4c45f4ba6d4529a765a4a3, type: 3}
+    landmarkMainPicture: {fileID: 21300000, guid: d32907f0ad30fd148becb19fb4748f01, type: 3}
+    landmarkSubPicture:
+    - {fileID: 21300000, guid: 7eb4d21f7551a104b953544977ce670f, type: 3}
+    - {fileID: 21300000, guid: a06ebc70a7f835b4d988388096bd47f2, type: 3}
+    - {fileID: 21300000, guid: d9fb742dc3074ae4c9853e8c1285ebbf, type: 3}
+    - {fileID: 21300000, guid: abfdce20705e95041a806bd28e22fcf7, type: 3}
     landmarkDescription: "\u0E27\u0E19\u0E34\u0E25\u0E32 \u0E25\u0E32\u0E40\u0E15\u0E49\u0E23\u0E49\u0E2D\u0E19\r\n\u0E44\u0E27\u0E17\u0E4C\u0E21\u0E2D\u0E25\u0E15\u0E4C\u0E1B\u0E31\u0E48\u0E19\r\n\u0E04\u0E32\u0E1B\u0E39\u0E0A\u0E34\u0E42\u0E19\u0E48\u0E1B\u0E31\u0E48\u0E19\r"
     landmarkTravel: "\u0E40\u0E14\u0E34\u0E19\u0E15\u0E23\u0E07\u0E08\u0E32\u0E01\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E15\u0E32\u0E21\u0E17\u0E32\u0E07\u0E21\u0E32\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13
       74 \u0E40\u0E21\u0E15\u0E23"
-  infoText: "\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1E\u0E23\u0E32\u0E19\u0E19\u0E01\u0E43\u0E01\u0E25\u0E49\u0E1A\u0E49\u0E32\u0E19\u0E04\u0E38\u0E13"
+  infoText: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1E\u0E23\u0E32\u0E19\u0E19\u0E01"
