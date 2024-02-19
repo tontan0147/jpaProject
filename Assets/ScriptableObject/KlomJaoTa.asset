@@ -22,7 +22,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 422472bd97de43648b6f4051dd6c38bc, type: 3}
   - {fileID: 21300000, guid: 57b460db0c1863744975fef6f48044a8, type: 3}
   - {fileID: 21300000, guid: b9b0019709e895a4c852e086d5f6a8c3, type: 3}
-  flags: 00000000
+  flags: 00000000010000000200000003000000
   isFav: 0
   landmarks:
   - landmarkName: Mother Roaster

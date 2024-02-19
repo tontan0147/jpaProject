@@ -17,7 +17,7 @@ MonoBehaviour:
   visual: 2
   stationMainPicture: {fileID: 0}
   stationSubPictures: []
-  flags: 00000000
+  flags: 00000000010000000200000003000000
   isFav: 0
   landmarks: []
   infoText: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1E\u0E23\u0E30\u0E1B\u0E34\u0E48\u0E19\u0E40\u0E01\u0E25\u0E49\u0E32"
