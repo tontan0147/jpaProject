@@ -13,15 +13,35 @@ MonoBehaviour:
   m_Name: KiewKaika
   m_EditorClassIdentifier: 
   stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E40\u0E02\u0E35\u0E22\u0E27\u0E44\u0E02\u0E48\u0E01\u0E32"
-  stationKeyword: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14"
+  stationKeyword: 
   visual: 2
-  stationMainPicture: {fileID: 0}
+  stationMainPicture: {fileID: 21300000, guid: 1eab45685c9a4564ba71ada6f092462f, type: 3}
   stationSubPictures: []
-  flags: 00000000
+  flags: 01000000
   isFav: 0
   landmarks:
-  - landmarkName: 
-    landmarkSchedule: 
-    landmarkPicture: []
-    landmarkDescription: 
-  infoText: "\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14\u0E43\u0E01\u0E25\u0E49\u0E1A\u0E49\u0E32\u0E19\u0E04\u0E38\u0E13"
+  - landmarkName: "Hi mall \u0E2A\u0E32\u0E21\u0E40\u0E2A\u0E19"
+    landmarkSchedule: "\u0E17\u0E38\u0E01\u0E27\u0E31\u0E19 10:00 - 21:00"
+    landmarkMainPicture: {fileID: 21300000, guid: 040ea934651419f45a175c006db3eb5a, type: 3}
+    landmarkSubPicture:
+    - {fileID: 21300000, guid: 2ccdd55df85855249a2f2fcfb0e42c3f, type: 3}
+    - {fileID: 21300000, guid: f60245bbfbc27db40bff80116c6ebf0c, type: 3}
+    - {fileID: 21300000, guid: 8eccbc4737a32da4db37084fd9b15d26, type: 3}
+    landmarkDescription: "\u0E2B\u0E49\u0E32\u0E07\u0E2A\u0E23\u0E23\u0E1E\u0E2A\u0E34\u0E19\u0E04\u0E49\u0E32
+      Hi mall \u0E2A\u0E32\u0E21\u0E40\u0E2A\u0E19 "
+    landmarkTravel: "\u0E02\u0E36\u0E49\u0E19\u0E08\u0E32\u0E01\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E40\u0E02\u0E35\u0E22\u0E27\u0E44\u0E01\u0E48\u0E01\u0E32\u0E41\u0E25\u0E49\u0E27\u0E40\u0E14\u0E34\u0E19\u0E15\u0E23\u0E07\u0E44\u0E1B\u0E15\u0E32\u0E21\u0E17\u0E32\u0E07400\u0E40\u0E21\u0E15\u0E23\u0E40\u0E25\u0E35\u0E49\u0E22\u0E27\u0E0B\u0E49\u0E32\u0E22\u0E08\u0E30\u0E16\u0E36\u0E07\u0E2B\u0E49\u0E32\u0E07\u0E2A\u0E23\u0E23\u0E1E\u0E2A\u0E34\u0E19\u0E04\u0E49\u0E32
+      Hi mall \u0E2A\u0E32\u0E21\u0E40\u0E2A\u0E19 "
+  - landmarkName: supreme
+    landmarkSchedule: "\u0E17\u0E38\u0E01\u0E27\u0E31\u0E19 10:00 - 21:00"
+    landmarkMainPicture: {fileID: 21300000, guid: cda227b0f6670204fb86d36beacadc99, type: 3}
+    landmarkSubPicture:
+    - {fileID: 21300000, guid: ebeb168c74751a148912ca82c5e25378, type: 3}
+    - {fileID: 21300000, guid: ef0699868442bf741bc2dbdfa120d1ed, type: 3}
+    - {fileID: 21300000, guid: 19682102388d4a847a6e59c91bf7e5ff, type: 3}
+    - {fileID: 21300000, guid: d8fa6c85404ffa44b826709bd89c2575, type: 3}
+    landmarkDescription: "\u0E2B\u0E49\u0E32\u0E07\u0E2A\u0E23\u0E23\u0E1E\u0E2A\u0E34\u0E19\u0E04\u0E49\u0E32
+      Hi mall \u0E2A\u0E32\u0E21\u0E40\u0E2A\u0E19 "
+    landmarkTravel: "\u0E02\u0E36\u0E49\u0E19\u0E08\u0E32\u0E01\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E40\u0E02\u0E35\u0E22\u0E27\u0E44\u0E01\u0E48\u0E01\u0E32\u0E41\u0E25\u0E49\u0E27\u0E40\u0E14\u0E34\u0E19\u0E15\u0E23\u0E07\u0E44\u0E1B\u0E15\u0E32\u0E21\u0E17\u0E32\u0E07400\u0E40\u0E21\u0E15\u0E23\u0E40\u0E25\u0E35\u0E49\u0E22\u0E27\u0E0B\u0E49\u0E32\u0E22\u0E08\u0E30\u0E16\u0E36\u0E07
+      \u0E2B\u0E49\u0E32\u0E07\u0E2A\u0E23\u0E23\u0E1E\u0E2A\u0E34\u0E19\u0E04\u0E49\u0E32
+      supreme "
+  infoText: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E40\u0E02\u0E35\u0E22\u0E27\u0E44\u0E02\u0E48\u0E01\u0E32"
