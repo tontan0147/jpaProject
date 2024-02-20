@@ -21,9 +21,19 @@ MonoBehaviour:
   isFav: 0
   landmarks:
   - landmarkName: Market plac
-    landmarkSchedule: 
-    landmarkMainPicture: {fileID: 0}
-    landmarkSubPicture: []
-    landmarkDescription: 
-    landmarkTravel: 
-  infoText: "\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14\u0E43\u0E01\u0E25\u0E49\u0E1A\u0E49\u0E32\u0E19\u0E04\u0E38\u0E13"
+    landmarkSchedule: "\u0E17\u0E38\u0E01\u0E27\u0E31\u0E19 10:00\u201322:00"
+    landmarkMainPicture: {fileID: 21300000, guid: d76250190e3b2da4fb5ca5d353cde279, type: 3}
+    landmarkSubPicture:
+    - {fileID: 21300000, guid: 8bd11cabdafb4804ba1dd46717d21182, type: 3}
+    - {fileID: 21300000, guid: 126a94d64077e8d4abb23c6d5f2f3664, type: 3}
+    - {fileID: 21300000, guid: 71b9655da5788ea4a9f93dc6a942bbda, type: 3}
+    - {fileID: 21300000, guid: 6b29c1dc0074f074cbdbd7bf117844df, type: 3}
+    - {fileID: 21300000, guid: dcc1fe99857de1e46be640859031bce4, type: 3}
+    - {fileID: 21300000, guid: 589f607812068a3438e9ca54c7c8c891, type: 3}
+    landmarkDescription: "\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E21\u0E35
+      TOPS Supermarket Starbuck KFC Mcdonald  The Pizza Company \u0E41\u0E25\u0E30\u0E2D\u0E35\u0E01\u0E2B\u0E25\u0E32\u0E22\u0E23\u0E49\u0E32\u0E19 
+      DIY \u0E01\u0E47\u0E21\u0E35 \u0E23\u0E49\u0E32\u0E19\u0E01\u0E39\u0E42\u0E23\u0E15\u0E35\u0E0A\u0E32\u0E0A\u0E31\u0E01
+      \u0E21\u0E35\u0E02\u0E49\u0E32\u0E27\u0E2B\u0E21\u0E01\u0E44\u0E01 \u0E17\u0E35\u0E48\u0E23\u0E32\u0E04\u0E32\u0E44\u0E21\u0E48\u0E41\u0E1C\u0E07\u0E41\u0E15\u0E48\u0E04\u0E38\u0E13\u0E20\u0E32\u0E1E\u0E23\u0E30\u0E14\u0E31\u0E1A\u0E40\u0E14\u0E35\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E2B\u0E49\u0E32\u0E07\u0E2A\u0E23\u0E23\u0E1E\u0E2A\u0E34\u0E19\u0E04\u0E49\u0E32\u0E48"
+    landmarkTravel: "\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E25\u0E07\u0E2A\u0E30\u0E1E\u0E32\u0E19\u0E0B\u0E31\u0E07\u0E2E\u0E35\u0E49\u0E40\u0E14\u0E34\u0E19\u0E02\u0E02\u0E49\u0E32\u0E21\u0E1D\u0E32\u0E01\u0E44\u0E1B\u0E2D\u0E35\u0E01\u0E1D\u0E31\u0E48\u0E07\u0E19\u0E36\u0E07\u0E02\u0E2D\u0E07\u0E41\u0E21\u0E48\u0E19\u0E49\u0E33\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E25\u0E07\u0E2A\u0E30\u0E1E\u0E32\u0E19\u0E40\u0E14\u0E34\u0E19\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E2D\u0E35\u0E01100\u0E40\u0E21\u0E15\u0E23\u0E08\u0E30\u0E16\u0E36\u0E07
+      Market plac"
+  infoText: "\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E2A\u0E30\u0E1E\u0E32\u0E19\u0E0B\u0E31\u0E07\u0E2E\u0E35\u0E49\n"
