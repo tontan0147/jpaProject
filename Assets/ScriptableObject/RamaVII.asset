@@ -13,15 +13,23 @@ MonoBehaviour:
   m_Name: RamaVII
   m_EditorClassIdentifier: 
   stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E21\u0E40\u0E08\u0E47\u0E14"
-  stationKeyword: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14"
+  stationKeyword: 
   visual: 2
-  stationMainPicture: {fileID: 0}
+  stationMainPicture: {fileID: 21300000, guid: 10464dad469de8f4e873620c59670a32, type: 3}
   stationSubPictures: []
-  flags: 00000000
+  flags: 00000000010000000200000003000000
   isFav: 0
   landmarks:
-  - landmarkName: 
-    landmarkSchedule: 
-    landmarkPicture: []
-    landmarkDescription: 
-  infoText: "\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14\u0E43\u0E01\u0E25\u0E49\u0E1A\u0E49\u0E32\u0E19\u0E04\u0E38\u0E13"
+  - landmarkName: "\u0E2A\u0E27\u0E19\u0E2A\u0E18\u0E32\u0E23\u0E13\u0E30\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E217"
+    landmarkSchedule: "\u0E40\u0E1B\u0E34\u0E14 24 \u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07"
+    landmarkMainPicture: {fileID: 21300000, guid: 243a379be3d8eca43b207e734905a5dd, type: 3}
+    landmarkSubPicture:
+    - {fileID: 21300000, guid: 3580f7f9db98cad43ba28c6ee9f1526f, type: 3}
+    - {fileID: 21300000, guid: 067ebef5c8021d04882a2507e5429010, type: 3}
+    - {fileID: 21300000, guid: bbc0835237b160e46870a77705e99a35, type: 3}
+    - {fileID: 21300000, guid: 98672fb5df97786479754a7621bbbfb3, type: 3}
+    - {fileID: 21300000, guid: 7e1b4a0abcbe3a4489fe6e40f3896189, type: 3}
+    - {fileID: 21300000, guid: dfe0052921007104dbe5d97344f5b237, type: 3}
+    landmarkDescription: "\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E27\u0E19\u0E17\u0E35\u0E48\u0E40\u0E1B\u0E34\u0E14\u0E44\u0E2B\u0E49\u0E40\u0E02\u0E49\u0E32\u0E21\u0E32\u0E17\u0E33\u0E01\u0E34\u0E08\u0E01\u0E23\u0E23\u0E21\u0E01\u0E25\u0E32\u0E07\u0E41\u0E08\u0E49\u0E07\u0E2D\u0E2D\u0E01\u0E01\u0E33\u0E25\u0E31\u0E07\u0E01\u0E32\u0E22\u0E44\u0E14\u0E49\u0E2D\u0E22\u0E32\u0E07\u0E2D\u0E34\u0E2A\u0E23\u0E30"
+    landmarkTravel: "\u0E02\u0E36\u0E49\u0E19\u0E08\u0E32\u0E01\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E217\u0E40\u0E14\u0E34\u0E19\u0E02\u0E49\u0E32\u0E21\u0E1F\u0E32\u0E01\u0E21\u0E32\u0E2D\u0E35\u0E01\u0E1F\u0E31\u0E48\u0E07\u0E02\u0E2D\u0E07\u0E40\u0E40\u0E21\u0E48\u0E19\u0E49\u0E33\u0E08\u0E30\u0E16\u0E36\u0E07\u0E2A\u0E27\u0E19\u0E2A\u0E32\u0E18\u0E32\u0E23\u0E13\u0E30\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E217"
+  infoText: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E2A\u0E30\u0E1E\u0E32\u0E19\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E217"
