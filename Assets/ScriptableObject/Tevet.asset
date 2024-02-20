@@ -17,7 +17,7 @@ MonoBehaviour:
   visual: 2
   stationMainPicture: {fileID: 21300000, guid: fe10a5a030ff23a49be0bbf1d83bed36, type: 3}
   stationSubPictures: []
-  flags: 00000000
+  flags: 00000000010000000200000003000000
   isFav: 0
   landmarks:
   - landmarkName: Yummy Brew

@@ -1586,7 +1586,8 @@ MonoBehaviour:
   currentLandmark:
     landmarkName: 
     landmarkSchedule: 
-    landmarkPicture: []
+    landmarkMainPicture: {fileID: 0}
+    landmarkSubPicture: []
     landmarkDescription: 
     landmarkTravel: 
   stationSOList:
@@ -1617,7 +1618,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 86a45fa80de569a43a45550e002f92de, type: 2}
   - {fileID: 11400000, guid: 8eb82d08a43786949b5500325f42f001, type: 2}
   - {fileID: 11400000, guid: 2c45cf958566d8d4d9392a5b8f13c458, type: 2}
-  - {fileID: 11400000, guid: cb227e626a5c778478b0478ebf8cece4, type: 2}
   - {fileID: 11400000, guid: 89d11bdfdffcfae44af5d35879442117, type: 2}
   - {fileID: 11400000, guid: 7042cff5dd9374044b9aa98640ff42e0, type: 2}
   - {fileID: 11400000, guid: 8c096a594c831794b93e4fa7c2992b10, type: 2}
@@ -1626,9 +1626,9 @@ MonoBehaviour:
   recStationSOList:
   - {fileID: 11400000, guid: b4cddeb3ac680e0449820ed5734311b1, type: 2}
   - {fileID: 11400000, guid: dab12c718aa95b8419703f6191303f0d, type: 2}
-  - {fileID: 11400000, guid: cb227e626a5c778478b0478ebf8cece4, type: 2}
   - {fileID: 11400000, guid: 89d11bdfdffcfae44af5d35879442117, type: 2}
   - {fileID: 11400000, guid: 852c8945fd316cc4282222a19db6ad56, type: 2}
+  - {fileID: 11400000, guid: 6f583278365409642a7bab9420ee9538, type: 2}
 --- !u!4 &2004792291
 Transform:
   m_ObjectHideFlags: 0

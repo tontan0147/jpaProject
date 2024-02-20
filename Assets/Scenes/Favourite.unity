@@ -2146,8 +2146,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0E0A\u0E37\u0E48\u0E2D\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c495d9828e396a54bb3baa763d19001a, type: 2}
-  m_sharedMaterial: {fileID: -7072583665633152582, guid: c495d9828e396a54bb3baa763d19001a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 816bef2d61f3e4a43934b211f63eab20, type: 2}
+  m_sharedMaterial: {fileID: -8179966025586100213, guid: 816bef2d61f3e4a43934b211f63eab20, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

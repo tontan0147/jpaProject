@@ -1,0 +1,5 @@
+D:/work/water/New folder/jpaProject/.utmp/RelWithDebInfo/4i191l6n/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/work/water/New folder/jpaProject/.utmp/RelWithDebInfo/4i191l6n/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/work/water/New folder/jpaProject/.utmp/RelWithDebInfo/4i191l6n/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+D:/work/water/New folder/jpaProject/.utmp/RelWithDebInfo/4i191l6n/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+D:/work/water/New folder/jpaProject/.utmp/RelWithDebInfo/4i191l6n/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
