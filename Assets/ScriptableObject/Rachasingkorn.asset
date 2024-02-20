@@ -15,9 +15,9 @@ MonoBehaviour:
   stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E23\u0E32\u0E0A\u0E2A\u0E34\u0E07\u0E02\u0E23"
   stationKeyword: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14"
   visual: 2
-  stationMainPicture: {fileID: 0}
+  stationMainPicture: {fileID: 21300000, guid: 5b22275ac371d394a9bb75de4d0b98cf, type: 3}
   stationSubPictures: []
-  flags: 00000000
+  flags: 01000000
   isFav: 0
   landmarks:
   - landmarkName: "\u0E15\u0E27\u0E07 \u0E15\u0E34\u0E48\u0E21\u0E0B\u0E33"
