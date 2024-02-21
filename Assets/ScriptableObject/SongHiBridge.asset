@@ -16,7 +16,14 @@ MonoBehaviour:
   stationKeyword: 
   visual: 2
   stationMainPicture: {fileID: 21300000, guid: 4fdbe554a6992c44198f7d47c7c3b9db, type: 3}
-  stationSubPictures: []
+  stationSubPictures:
+  - {fileID: 21300000, guid: 3a03ecae564875541a27bb52f26ba90f, type: 3}
+  - {fileID: 21300000, guid: 83ed7b96d7a5606498efbe14a8978b3e, type: 3}
+  - {fileID: 21300000, guid: 9af8af5ab7012674db693f42a5ca8532, type: 3}
+  - {fileID: 21300000, guid: 39de5412675aa6f419a5915f933a6b05, type: 3}
+  - {fileID: 21300000, guid: a27d153fd4bb8604898016cc9880084c, type: 3}
+  - {fileID: 21300000, guid: 97a79308c5006ab47ba7108df85e063c, type: 3}
+  - {fileID: 21300000, guid: 30641d0b3c9cb5945b72d5480ff88a26, type: 3}
   flags: 01000000
   isFav: 0
   landmarks:

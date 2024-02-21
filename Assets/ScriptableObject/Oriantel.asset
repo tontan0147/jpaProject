@@ -12,20 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e006c48fa683514c9daa122f74e0d7d, type: 3}
   m_Name: Oriantel
   m_EditorClassIdentifier: 
-  stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E42\u0E2D\u0E40\u0E23\u0E35\u0E22\u0E25\u0E40\u0E17\u0E25"
+  stationName: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E42\u0E2D\u0E40\u0E23\u0E35\u0E22\u0E25\u0E40\u0E15\u0E47\u0E25"
   stationKeyword: 
   visual: 2
   stationMainPicture: {fileID: 21300000, guid: 3b44618866c982945916477de21c9563, type: 3}
-  stationSubPictures: []
+  stationSubPictures:
+  - {fileID: 21300000, guid: 87e62ce5fc334ba40956d7b554e0219d, type: 3}
+  - {fileID: 21300000, guid: e1a4ddbf55b096b4581a511b15e74144, type: 3}
+  - {fileID: 21300000, guid: 6712a4d765d41054295d9193b02cd445, type: 3}
+  - {fileID: 21300000, guid: 91022051aa9c0b5458a9fbff32d62aeb, type: 3}
+  - {fileID: 21300000, guid: c024283f73631a74795db977944ff4d0, type: 3}
   flags: 01000000
   isFav: 0
   landmarks:
   - landmarkName: "\u0E2D\u0E32\u0E04\u0E32\u0E23\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17\u0E2D\u0E35\u0E2A\u0E17\u0E4C\u0E40\u0E2D\u0E40\u0E0A\u0E35\u0E22\u0E15\u0E34\u0E013"
-    landmarkSchedule: 
+    landmarkSchedule: "\u0E1B\u0E34\u0E14\u0E0A\u0E31\u0E48\u0E27\u0E04\u0E23\u0E32\u0E27"
     landmarkMainPicture: {fileID: 21300000, guid: 5f9eca117efac9546aba148dbbae68c4, type: 3}
     landmarkSubPicture:
     - {fileID: 21300000, guid: e6f9b8d184bf4a34caac86a600f157cc, type: 3}
     - {fileID: 21300000, guid: 7ddd0da4a5427e449b32f60d9103ec37, type: 3}
-    landmarkDescription: 
-    landmarkTravel: 
-  infoText: "\u0E2A\u0E16\u0E32\u0E19\u0E35\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14\u0E43\u0E01\u0E25\u0E49\u0E1A\u0E49\u0E32\u0E19\u0E04\u0E38\u0E13"
+    landmarkDescription: "\u0E2D\u0E32\u0E04\u0E32\u0E23\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17\u0E2D\u0E35\u0E2A\u0E17\u0E4C\u0E40\u0E2D\u0E40\u0E0A\u0E35\u0E22\u0E15\u0E34\u0E01
+      \u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E21\u0E35\u0E44\u0E27\u0E49\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E08\u0E31\u0E14\u0E07\u0E32\u0E19\u0E28\u0E34\u0E25\u0E1B\u0E30
+      \u0E0B\u0E36\u0E48\u0E07\u0E1B\u0E31\u0E08\u0E08\u0E38\u0E1A\u0E31\u0E19\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E40\u0E1B\u0E34\u0E14\u0E43\u0E2B\u0E49\u0E21\u0E35\u0E01\u0E32\u0E23\u0E08\u0E31\u0E14\u0E07\u0E32\u0E19\u0E41\u0E25\u0E49\u0E27"
+    landmarkTravel: "\u0E40\u0E14\u0E34\u0E19\u0E2D\u0E2D\u0E01\u0E21\u0E32\u0E08\u0E32\u0E01\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13
+      9 \u0E40\u0E21\u0E15\u0E23 \u0E2D\u0E32\u0E04\u0E32\u0E23\u0E08\u0E30\u0E2D\u0E22\u0E39\u0E48\u0E02\u0E27\u0E32\u0E21\u0E37\u0E2D"
+  infoText: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E42\u0E2D\u0E40\u0E23\u0E35\u0E22\u0E25\u0E40\u0E15\u0E47\u0E25"

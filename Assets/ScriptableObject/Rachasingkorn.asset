@@ -16,7 +16,11 @@ MonoBehaviour:
   stationKeyword: "\u0E17\u0E48\u0E32\u0E40\u0E23\u0E37\u0E2D\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14"
   visual: 2
   stationMainPicture: {fileID: 21300000, guid: 5b22275ac371d394a9bb75de4d0b98cf, type: 3}
-  stationSubPictures: []
+  stationSubPictures:
+  - {fileID: 21300000, guid: 9e16d55ab145bbe4487fb0ab1d4eb11f, type: 3}
+  - {fileID: 21300000, guid: 57636b1975b38654f87d818396556863, type: 3}
+  - {fileID: 21300000, guid: 7fc76d9752b5d61429833a44cdb74634, type: 3}
+  - {fileID: 21300000, guid: 50a3e72f6dbcb5c4797bb9bb2c735f92, type: 3}
   flags: 01000000
   isFav: 0
   landmarks:

@@ -30,7 +30,8 @@ MonoBehaviour:
     - {fileID: 21300000, guid: ca79f36d5dffa6b409a7e96ed2d4d35e, type: 3}
     - {fileID: 21300000, guid: ddf07d9d78eb8d5488fe0af777a38e24, type: 3}
     - {fileID: 21300000, guid: 0d2b2db94793d2343adf99eaa3bca6a7, type: 3}
-    landmarkDescription: 
+    landmarkDescription: "\u0E23\u0E49\u0E32\u0E19\u0E41\u0E19\u0E30\u0E19\u0E33\r\nGreat
+      Harbour\r\nJumbo Seafood\r\nTsukiji Takewaka\r\nGyukatsu Kyoto Katsugyu\r\n"
     landmarkTravel: 
   - landmarkName: "\u0E23\u0E49\u0E32\u0E19\u0E40\u0E27\u0E17\u0E21\u0E19\u0E15\u0E23\u0E4C"
     landmarkSchedule: "\u0E17\u0E38\u0E01\u0E27\u0E31\u0E19 10:00 \u2013 22:00"
